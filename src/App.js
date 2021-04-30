@@ -151,7 +151,7 @@ function App() {
         style={{ height: 'var(--topbar-height)' }}
       >
         <a href="https://alterclass.io/courses/react">
-          <img src={brandLogo} alt="AlterClass" width={150} />
+          <img src={brandLogo} alt="Chat" width={150} />
         </a>
         <div className="flex items-center">
           {user ? (
