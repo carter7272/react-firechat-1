@@ -135,10 +135,6 @@ function App() {
               Sign out
             </button>
           ) : null}
-          <ThemeIcon
-            className="h-8 w-8 cursor-pointer"
-            onClick={() => setDarkMode(prev => !prev)}
-          />
         </div>
       </header>
       <main
