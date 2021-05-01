@@ -43,7 +43,7 @@ const SunIcon = props => (
 function App() {
   const { user, initializing } = useAuthState(firebase.auth());
   const [darkMode, setDarkMode] = useDarkMode();
-
+  console.log(user)
   const brandLogo = darkMode
     ? `${process.env.PUBLIC_URL}/logo_white.svg`
     : `${process.env.PUBLIC_URL}/logo.svg`;
@@ -159,5 +159,4 @@ function App() {
     </div>
   );
 }
-console.log(user)
 export default App;
