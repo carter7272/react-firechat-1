@@ -47,6 +47,7 @@ const Channel = ({ user = null }) => {
       // Scroll down to the bottom of the list
       bottomListRef.current.scrollIntoView({ behavior: 'smooth' });
       bottomListRef.scrollIntoView();
+      window.scrollTo(0,document.body.scrollHeight);
     }
   };
 
