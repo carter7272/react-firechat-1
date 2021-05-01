@@ -82,9 +82,6 @@ function App() {
 
     return (
             Dimscord
-          <p>
-            Not a discord clone.
-          </p>
           <button
             onClick={signInWithGoogle}
             className="rounded shadow-button pl-6 pr-8 py-3 bg-white hover:bg-gray-50 text-gray-600 font-medium flex items-center justify-center overflow-y-hidden focus:outline-none focus:ring focus:ring-primary-500 focus:ring-opacity-75"
