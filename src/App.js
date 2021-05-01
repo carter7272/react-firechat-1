@@ -103,10 +103,10 @@ function App() {
                 clipRule="evenodd"
               />
             </svg>
-            React FireChat
+            Dimscord
           </h2>
           <p className="mb-8 text-lg text-center">
-            The easiest way to chat with people all around the world.
+            Not a discord clone.
           </p>
           <button
             onClick={signInWithGoogle}
