@@ -102,7 +102,7 @@ function App() {
                 clipRule="evenodd"
               />
             </svg>
-            Chat test
+            Dimscord
           </h2>
           <p className="mb-8 text-lg text-center">
             Talk 
