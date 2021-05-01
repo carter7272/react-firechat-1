@@ -90,7 +90,7 @@ function App() {
         <div className="flex flex-col items-center justify-center max-w-xl w-full mx-4 p-8 rounded-md shadow-card bg-white dark:bg-coolDark-600 transition-all">
           <h2 className="mb-2 text-3xl flex items-center">
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns=""
               viewBox="0 0 20 20"
               fill="currentColor"
               className="flex-shrink-0 w-12 h-12 mr-1 text-primary-500"
@@ -149,7 +149,7 @@ function App() {
         className="flex-shrink-0 flex items-center justify-between px-4 sm:px-8 shadow-md"
         style={{ height: 'var(--topbar-height)' }}
       >
-        <a href="https://alterclass.io/courses/react">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
           <img src={brandLogo} alt="AlterClass" width={150} />
         </a>
         <div className="flex items-center">
