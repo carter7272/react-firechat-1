@@ -82,7 +82,6 @@ function App() {
 
     return (
             Dimscord
-          </h2>
           <p className="mb-8 text-lg text-center">
             Not a discord clone.
           </p>
