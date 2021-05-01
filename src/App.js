@@ -10,12 +10,12 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyCFaXJClEaUbZBLkxfwOTP73lplpSF5phs",
-  authDomain: "react-firechat-88e36.firebaseapp.com",
-  projectId: "react-firechat-88e36",
-  storageBucket: "react-firechat-88e36.appspot.com",
-  messagingSenderId: "192285325096",
-  appId: "1:192285325096:web:e1e6528524ebf3a6a7421d",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
 });
 
 const MoonIcon = props => (
@@ -102,10 +102,10 @@ function App() {
                 clipRule="evenodd"
               />
             </svg>
-            Dimscord
+            React FireChat
           </h2>
           <p className="mb-8 text-lg text-center">
-            Talk 
+            The easiest way to chat with people all around the world.
           </p>
           <button
             onClick={signInWithGoogle}
@@ -150,8 +150,8 @@ function App() {
         className="flex-shrink-0 flex items-center justify-between px-4 sm:px-8 shadow-md"
         style={{ height: 'var(--topbar-height)' }}
       >
-        <a href="">
-          <img src={brandLogo} alt="Dimscord" width={150} />
+        <a href="https://alterclass.io/courses/react">
+          <img src={brandLogo} alt="AlterClass" width={150} />
         </a>
         <div className="flex items-center">
           {user ? (
