@@ -86,7 +86,7 @@ function App() {
           <h2 className="mb-2 text-3xl flex items-center">
             <svg
               xmlns=""
-              viewBox="0 0 20 20"
+              viewBox="0 0 0 0"
               fill="currentColor"
               className="flex-shrink-0 w-12 h-12 mr-1 text-primary-500"
             >
