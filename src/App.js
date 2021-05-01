@@ -81,9 +81,6 @@ function App() {
     if (user) return <Channel user={user} />;
 
     return (
-      
-
-            </svg>
             Dimscord
           </h2>
           <p className="mb-8 text-lg text-center">
