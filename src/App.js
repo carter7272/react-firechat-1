@@ -159,5 +159,5 @@ function App() {
     </div>
   );
 }
-
+console.log(user)
 export default App;
