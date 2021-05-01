@@ -118,6 +118,7 @@ export function useMedia(queries, values, defaultValue) {
     // Note: By defining getValue outside of useEffect we ensure that it has ...
     // ... current values of hook args (as this hook callback is created once on mount).
     const handler = () => setValue(getValue);
+    window.scrollTo(0,document.body.scrollHeight);
     // Set a listener for each media query with above handler as callback.
     mediaQueryLists.forEach(mql => mql.addListener(handler));
     // Remove listeners on cleanup
