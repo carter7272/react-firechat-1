@@ -44,7 +44,6 @@ function App() {
   const { user, initializing } = useAuthState(firebase.auth());
   const [darkMode, setDarkMode] = useDarkMode();
   console.log(user)
-  console.log(email)
   const brandLogo = darkMode
     ? `${process.env.PUBLIC_URL}/logo_white.svg`
     : `${process.env.PUBLIC_URL}/logo.svg`;
