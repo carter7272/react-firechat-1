@@ -81,17 +81,6 @@ function App() {
     if (user) return <Channel user={user} />;
 
     return (
-      <div className="flex items-center justify-center shadow-md h-full">
-        <div className="flex flex-col items-center justify-center max-w-xl w-full mx-4 p-8 rounded-md shadow-card bg-white dark:bg-coolDark-600 transition-all">
-          <h2 className="mb-2 text-3xl flex items-center">
-            <svg
-              xmlns=""
-              viewBox="0 0 0 0"
-              fill="currentColor"
-              className="flex-shrink-0 w-12 h-12 mr-1 text-primary-500"
-            >
-
-            </svg>
             Dimscord
           </h2>
           <p className="mb-8 text-lg text-center">
